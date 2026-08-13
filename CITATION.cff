@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using these metadata."
+title: "Game Theory Matrix Finder"
+type: software
+authors:
+  - family-names: Dunstan
+    given-names: Alex Lewis
+license: MIT
+abstract: "Exhaustive enumeration, Nash-equilibrium detection, and classification for two-player payoff matrices."

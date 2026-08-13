@@ -1,0 +1,38 @@
+# Generated research datasets
+engine/datasets/*
+!engine/datasets/README.md
+engine/*.csv
+
+# Local exports and logs
+.build/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+.claude/
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
