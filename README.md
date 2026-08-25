@@ -4,7 +4,9 @@ What happens when you stop using a few canonical games and generate *all of them
 
 The full 2x2, 0-10 run creates **214,358,881 games**: a few hundred million rows of strategic data to classify for pure and mixed equilibria, familiar game types, Pareto efficiency, welfare loss, and payoff asymmetry. It is part research engine, part computational stress test, and part way to see the geometry of game theory instead of just reading proofs about it.
 
-Try the [live matrix classifier on Hugging Face](https://alexdunstan-game-theory-matrix-classifier.static.hf.space).
+Try the [live matrix classifier](https://huggingface.co/spaces/AlexDunstan/game-theory-matrix-classifier).
+
+Explore the [Nash equilibria matrices dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) on Hugging Face.
 
 ![Game-type mix across enumerated payoff ranges](writeup/charts/cell24_07.png)
 
@@ -42,13 +44,13 @@ No credentials, private keys, or external service configuration are required. Do
 
 Most introductory game theory begins with a few named examples. This project takes the opposite route: enumerate a whole payoff space, identify every equilibrium structure, then ask which games are common, exceptional, stable, efficient, or strategically awkward.
 
-It covers pure and mixed equilibria, familiar 2x2 game types, Pareto efficiency, welfare loss, and payoff asymmetry. The engine is reproducible; the write-up explains the results; the [live classifier](https://alexdunstan-game-theory-matrix-classifier.static.hf.space) lets you inspect an individual matrix.
+It covers pure and mixed equilibria, familiar 2x2 game types, Pareto efficiency, welfare loss, and payoff asymmetry. The engine is reproducible; the write-up explains the results; the [live classifier](https://huggingface.co/spaces/AlexDunstan/game-theory-matrix-classifier) lets you inspect an individual matrix.
 
 Read the illustrated [research write-up](writeup/WRITEUP.md) or the formatted [PDF companion](output/pdf/game-theory-matrix-finder-writeup.pdf).
 
 ### Repository shape
 
-The public repository is source-only: code, tests, write-up, charts, and Hugging Face Space source. Generated datasets remain local because the largest files are many gigabytes. The live public Space is a static browser classifier built from `spaces/`.
+The public repository is source-only: code, tests, write-up, charts, and Hugging Face Space source. Generated datasets are excluded from Git; the public Parquet release is hosted as the [Nash equilibria matrices dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) on Hugging Face. The live public Space is a static browser classifier built from `spaces/`.
 
 ```text
 game-theory-matrix-finder/
@@ -117,7 +119,8 @@ The default 0-10 run creates 214 million rows and needs substantial disk space a
 |---|---|
 | Public GitHub repository | canonical public source |
 | Hugging Face Space | generated static browser demo |
-| Local generated datasets | reproducible research outputs; not published in Git |
+| Hugging Face Dataset | public Parquet outputs; [browse or download](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) |
+| Local generated datasets | reproducible working outputs; excluded from Git |
 
 ### Deployment
 
