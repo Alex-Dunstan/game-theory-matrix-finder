@@ -1,8 +1,8 @@
 # Game Theory Matrix Finder
 
-Exhaustive enumeration, Nash-equilibrium detection, and classification for two-player payoff matrices.
+What happens when you stop using a few canonical games and generate *all of them*? Game Theory Matrix Finder exhaustively builds payoff-matrix spaces, then maps their equilibrium structure.
 
-It generates configurable payoff-matrix spaces, identifies pure and mixed equilibria, classifies familiar 2x2 game types, and presents the results through a research write-up and a lightweight public classifier.
+The full 2x2, 0-10 run creates **214,358,881 games**: a few hundred million rows of strategic data to classify for pure and mixed equilibria, familiar game types, Pareto efficiency, welfare loss, and payoff asymmetry. It is part research engine, part computational stress test, and part way to see the geometry of game theory instead of just reading proofs about it.
 
 Try the [live matrix classifier on Hugging Face](https://alexdunstan-game-theory-matrix-classifier.static.hf.space).
 
@@ -12,8 +12,16 @@ Try the [live matrix classifier on Hugging Face](https://alexdunstan-game-theory
 
 ---
 
+## Before you run it
+
+> [!WARNING]
+> The generator has deliberately minimal safety rails. A full run writes very large local datasets; changing the matrix size or payoff range can multiply the output fast enough to fill disk, exhaust memory, stall the machine, or crash the process. Check available storage, start small, and change settings only if you understand the scale you are asking for. The project does not cap or rescue unsafe runs for you.
+
+---
+
 ## Table of Contents
 
+- [Before you run it](#before-you-run-it)
 - [Security](#security)
 - [Background](#background)
 - [Install](#install)
@@ -85,7 +93,7 @@ python generate_datasets.py
 python enrich_datasets.py
 ```
 
-The default 0-10 run creates 214 million rows and needs substantial disk space and time.
+The default 0-10 run creates 214 million rows and needs substantial disk space and time. Read [Before you run it](#before-you-run-it) before changing generation settings.
 
 ---
 

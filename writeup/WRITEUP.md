@@ -256,15 +256,3 @@ The enriched 0-10 file is 24 GB, which is why the deeper analysis stops at 0-5.
 What it *is* is a complete, explorable picture of a space that's usually only described
 in proofs - and a tool anyone can use to see where any given game sits in it. The
 empirical numbers line up with the theory, which is its own kind of confirmation.
-
----
-
-## Next steps
-
-- **Ordinal enumeration** - build the small, non-redundant set of strategically
-  distinct games. It would be a cleaner dataset and arguably the more correct object.
-- **Parquet + DuckDB** - query the 214M-row file with column filters instead of loading
-  8 GB into memory. Would let the deep analysis reach 0-10.
-- **Compute the continuous 2×2 limit analytically** and check where the discrete
-  ranges converge.
-- **Ship the tool** - push the Gradio app to HuggingFace Spaces.
