@@ -5,5 +5,6 @@ type: software
 authors:
   - family-names: Dunstan
     given-names: Alex Lewis
+    orcid: "https://orcid.org/0009-0007-7869-809X"
 license: MIT
 abstract: "Exhaustive enumeration, Nash-equilibrium detection, and classification for two-player payoff matrices."

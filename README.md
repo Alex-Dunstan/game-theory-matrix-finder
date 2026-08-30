@@ -160,6 +160,16 @@ Small research project. Open an issue or pull request with a reproducible explan
 
 ---
 
+## Citation
+
+If this software supports your work, cite:
+
+> Dunstan, A. L. (2026). *Game Theory Matrix Finder* [Computer software]. GitHub. https://github.com/Alex-Dunstan/game-theory-matrix-finder
+
+Author: [Alex Lewis Dunstan](https://orcid.org/0009-0007-7869-809X) (ORCID: [0009-0007-7869-809X](https://orcid.org/0009-0007-7869-809X)). For machine-readable metadata, use [`CITATION.cff`](CITATION.cff). Cite the accompanying [Hugging Face dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) separately when using its data.
+
+---
+
 ## License
 
 Released under the [MIT License](LICENSE). Citation metadata is in [`CITATION.cff`](CITATION.cff).

@@ -315,6 +315,28 @@ select {
   font-weight: 700;
 }
 
+.project-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem 0.55rem;
+  margin: 1.25rem 0 0.5rem;
+  color: var(--text-dim);
+  font-size: 0.76rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.project-footer a {
+  color: var(--text-mut);
+  text-decoration-color: rgba(232, 97, 10, 0.6);
+  text-underline-offset: 0.18em;
+}
+
+.project-footer a:hover {
+  color: var(--text-pri);
+}
+
 @media (max-width: 900px) {
   .layout {
     grid-template-columns: 1fr;

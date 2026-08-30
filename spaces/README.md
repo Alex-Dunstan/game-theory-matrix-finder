@@ -36,3 +36,15 @@ Included game-type labels:
 - `Other`
 
 This Space is intentionally lightweight. It does **not** include the larger local research repo, datasets, notebook, or write-up.
+
+## Author and source
+
+Created by [Alex Lewis Dunstan](https://orcid.org/0009-0007-7869-809X) (ORCID: [0009-0007-7869-809X](https://orcid.org/0009-0007-7869-809X)). Source code and research write-up: [Game Theory Matrix Finder](https://github.com/Alex-Dunstan/game-theory-matrix-finder).
+
+## Citation
+
+This Space is an interactive deployment of the canonical software project; cite the project rather than this deployment:
+
+> Dunstan, A. L. (2026). *Game Theory Matrix Finder* [Computer software]. GitHub. https://github.com/Alex-Dunstan/game-theory-matrix-finder
+
+Machine-readable metadata: [`CITATION.cff`](https://github.com/Alex-Dunstan/game-theory-matrix-finder/blob/main/CITATION.cff). Cite the [Nash Equilibria of 2x2 Normal-Form Games dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) separately when using its data.

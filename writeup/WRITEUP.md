@@ -2,6 +2,8 @@
 
 *An exhaustive computational tour of pure-strategy Nash equilibria*
 
+*Alex Lewis Dunstan · [ORCID: 0009-0007-7869-809X](https://orcid.org/0009-0007-7869-809X)*
+
 ## Why I built this
 
 Game theory textbooks prove things. They tell you a 2×2 game has at most so many
@@ -256,3 +258,11 @@ The enriched 0-10 file is 24 GB, which is why the deeper analysis stops at 0-5.
 What it *is* is a complete, explorable picture of a space that's usually only described
 in proofs - and a tool anyone can use to see where any given game sits in it. The
 empirical numbers line up with the theory, which is its own kind of confirmation.
+
+---
+
+## Citation
+
+> Dunstan, A. L. (2026). *Every 2x2 game, counted: An exhaustive computational tour of pure-strategy Nash equilibria.* Game Theory Matrix Finder. https://github.com/Alex-Dunstan/game-theory-matrix-finder
+
+Author ORCID: [0009-0007-7869-809X](https://orcid.org/0009-0007-7869-809X). The project software citation is maintained in [`CITATION.cff`](../CITATION.cff); cite the [Hugging Face dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) separately when using its data.
