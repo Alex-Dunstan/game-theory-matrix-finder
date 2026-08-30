@@ -47,4 +47,4 @@ This Space is an interactive deployment of the canonical software project; cite 
 
 > Dunstan, A. L. (2026). *Game Theory Matrix Finder* [Computer software]. GitHub. https://github.com/Alex-Dunstan/game-theory-matrix-finder
 
-Machine-readable metadata: [`CITATION.cff`](https://github.com/Alex-Dunstan/game-theory-matrix-finder/blob/main/CITATION.cff). Cite the [Nash Equilibria of 2x2 Normal-Form Games dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) separately when using its data.
+Cite the [Nash Equilibria of 2x2 Normal-Form Games dataset](https://huggingface.co/datasets/AlexDunstan/nash-equilibria-matrices) separately when using its data.
